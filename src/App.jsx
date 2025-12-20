@@ -31,7 +31,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Title />
+      <Title text="My First React Component" color="blue" />
+<Title text="Learning React Step by Step" color="green" />
+
     </>
   )
 }
