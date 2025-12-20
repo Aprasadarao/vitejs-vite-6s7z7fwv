@@ -1,5 +1,5 @@
 function Title() {
-  return <h1>Hi Welcome</h1>;
+  return <h2>Title Component Working</h2>;
 }
 
 export default Title;
