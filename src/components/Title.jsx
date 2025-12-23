@@ -1,9 +1,7 @@
-function Title({ text, color }) {
+export default function Title() {
   return (
-    <h2 style={{ color: color }}>
-      {text}
-    </h2>
+    <div style={{ padding: "40px" }}>
+      <h2 style={{ color: "blue" }}>This is Title Page</h2>
+    </div>
   );
 }
-
-export default Title;
