@@ -7,6 +7,9 @@ import Navbar from "./components/Navbar";
 import Cars from "./components/Cars";
 import CarDetails from "./components/CarDetails";
 import Contact from "./components/Contact";
+import BlogList from "./components/BlogList";
+import BlogDetails from "./components/BlogDetails";
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
     <Route path="/addcarform" element={<AddCarForm />} />
     <Route path="/carsmanager" element={<CarsManager />} />
     <Route path="/cars" element={<Cars />} />
+    <Route path="/blog" element={<BlogList />} />
+    <Route path="/blog/:id" element={<BlogDetails />} />
     <Route path="/cars/:id" element={<CarDetails />} />
     <Route path="/contact" element={<Contact />} />
 

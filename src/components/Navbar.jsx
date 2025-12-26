@@ -22,6 +22,7 @@ export default function Navbar() {
           <li><NavLink to="/addcarform" className={linkClass}>Add Car Form</NavLink></li>
           <li><NavLink to="/carsmanager" className={linkClass}>Cars Manager</NavLink></li>
           <li><NavLink to="/cars" className={linkClass}>All Products</NavLink></li>
+          <li><NavLink to="/blog" className={linkClass}>Blog</NavLink></li>
           <li><NavLink to="/contact" className={linkClass}>Contact</NavLink></li>
         </ul>
 
@@ -67,6 +68,9 @@ export default function Navbar() {
           </li>
           <li onClick={() => setOpen(false)}>
             <NavLink to="/cars" className={linkClass}>All Products</NavLink>
+          </li>
+          <li onClick={() => setOpen(false)}>
+            <NavLink to="/blog" className={linkClass}>Blog</NavLink>
           </li>
           <li onClick={() => setOpen(false)}>
             <NavLink to="/contact" className={linkClass}>Contact</NavLink>
