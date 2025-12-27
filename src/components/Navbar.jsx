@@ -23,6 +23,7 @@ export default function Navbar() {
           <li><NavLink to="/carsmanager" className={linkClass}>Cars Manager</NavLink></li>
           <li><NavLink to="/cars" className={linkClass}>All Products</NavLink></li>
           <li><NavLink to="/blog" className={linkClass}>Blog</NavLink></li>
+          <li><NavLink to="/gallery" className={linkClass}>Gallery</NavLink></li>
           <li><NavLink to="/contact" className={linkClass}>Contact</NavLink></li>
         </ul>
 
@@ -71,6 +72,9 @@ export default function Navbar() {
           </li>
           <li onClick={() => setOpen(false)}>
             <NavLink to="/blog" className={linkClass}>Blog</NavLink>
+          </li>
+          <li onClick={() => setOpen(false)}>
+            <NavLink to="/gallery" className={linkClass}>Gallery</NavLink>
           </li>
           <li onClick={() => setOpen(false)}>
             <NavLink to="/contact" className={linkClass}>Contact</NavLink>

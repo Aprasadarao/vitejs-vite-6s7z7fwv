@@ -9,6 +9,7 @@ import CarDetails from "./components/CarDetails";
 import Contact from "./components/Contact";
 import BlogList from "./components/BlogList";
 import BlogDetails from "./components/BlogDetails";
+import Gallery from "./components/Gallery";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     <Route path="/blog" element={<BlogList />} />
     <Route path="/blog/:id" element={<BlogDetails />} />
     <Route path="/cars/:id" element={<CarDetails />} />
+    <Route path="/gallery" element={<Gallery />} />
     <Route path="/contact" element={<Contact />} />
 
   </Routes>
