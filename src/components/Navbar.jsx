@@ -19,6 +19,7 @@ export default function Navbar() {
 
         <ul className="hidden md:flex items-center gap-6">
           <li><NavLink to="/" className={linkClass}>Home</NavLink></li>
+          <li><NavLink to="/dashboard" className={linkClass}>Dashboard</NavLink></li>
           <li><NavLink to="/addcarform" className={linkClass}>Add Car Form</NavLink></li>
           <li><NavLink to="/carsmanager" className={linkClass}>Cars Manager</NavLink></li>
           <li><NavLink to="/cars" className={linkClass}>All Products</NavLink></li>
@@ -60,6 +61,9 @@ export default function Navbar() {
         <ul className="md:hidden bg-white border-t px-6 py-4 space-y-4">
           <li onClick={() => setOpen(false)}>
             <NavLink to="/" className={linkClass}>Home</NavLink>
+          </li>
+          <li onClick={() => setOpen(false)}>
+            <NavLink to="/dashboard" className={linkClass}>Dashboard</NavLink>
           </li>
           <li onClick={() => setOpen(false)}>
             <NavLink to="/addcarform" className={linkClass}>Add Car Form</NavLink>
