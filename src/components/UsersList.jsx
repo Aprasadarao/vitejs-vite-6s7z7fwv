@@ -91,7 +91,7 @@ function UsersList() {
 
   return (
     <div className="section">
-      <h2>📋 All Users</h2>
+      <h2>All Users</h2>
       <button onClick={() => refetch()} className="btn-secondary">🔄 Refresh</button>
       <div className="users-grid">
         {data?.map(user => (
@@ -136,7 +136,7 @@ function AddUser() {
 
   return (
     <div className="section mt-5">
-      <h2>➕ Add New User</h2>
+      <h2>Add New User</h2>
       <form onSubmit={handleSubmit} className="form">
         <input
           type="text"
@@ -340,7 +340,7 @@ function SearchUsers() {
 
   return (
     <div className="section mb-5">
-      <h2>🔍 Search Users</h2>
+      <h2>Search Users</h2>
       <input
         type="text"
         placeholder="Search by name or email..."
