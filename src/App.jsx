@@ -12,6 +12,7 @@ import BlogList from "./components/BlogList";
 import BlogDetails from "./components/BlogDetails";
 import Gallery from "./components/Gallery";
 import Dashboard from "./components/Dashboard";
+import UsersList from "./components/UsersList";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
     <Route path="/blog" element={<BlogList />} />
     <Route path="/blog/:id" element={<BlogDetails />} />
     <Route path="/cars/:id" element={<CarDetails />} />
+    <Route path="/userslist" element={<UsersList />} />
     <Route path="/gallery" element={<Gallery />} />
     <Route path="/contact" element={<Contact />} />
 
