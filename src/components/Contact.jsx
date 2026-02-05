@@ -21,7 +21,12 @@ export default function Contact() {
   const validate = () => {
     let newErrors = {};
 
-    if (!form.name.trim()) newErrors.name = "Name required";
+    if (!form.name.trim()) {
+      newErrors.name = "Name required";
+    } else if (!/^[A-Za-z\s]+$/.test(form.name)) {
+      // Ikkada kevalam A-Z, a-z mariyu spaces mathrame allow chesthunnam
+      newErrors.name = "Only characters and spaces allowed";
+    }
 
     if (!form.email.trim()) {
       newErrors.email = "Email required";
