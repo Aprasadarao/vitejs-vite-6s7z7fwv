@@ -14,6 +14,7 @@ import Gallery from "./components/Gallery";
 import Dashboard from "./components/Dashboard";
 import UsersList from "./components/UsersList";
 import FileUpload from "./components/FileUpload";
+import Team from "./components/Team";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     <Route path="/gallery" element={<Gallery />} />
     <Route path="/contact" element={<Contact />} />
     <Route path="/upload"  element={<FileUpload />} />
+    <Route path="/team" element={<Team />} />
 
   </Routes>
   </>

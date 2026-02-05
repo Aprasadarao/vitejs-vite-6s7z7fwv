@@ -22,7 +22,7 @@ export default function Navbar() {
           <li><NavLink to="/dashboard" className={linkClass}>Dashboard</NavLink></li>
           <li><NavLink to="/userslist" className={linkClass}>Users</NavLink></li>
           <li><NavLink to="/upload" className={linkClass}>Upload</NavLink></li>
-          <li><NavLink to="/carsmanager" className={linkClass}>Cars Manager</NavLink></li>
+          <li><NavLink to="/team" className={linkClass}>Team</NavLink></li>
           <li><NavLink to="/cars" className={linkClass}>All Products</NavLink></li>
           <li><NavLink to="/blog" className={linkClass}>Blog</NavLink></li>
           <li><NavLink to="/gallery" className={linkClass}>Gallery</NavLink></li>
