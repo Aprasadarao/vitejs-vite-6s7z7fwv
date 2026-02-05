@@ -92,7 +92,7 @@ function UsersList() {
   return (
     <div className="section">
       <h2>All Users</h2>
-      <button onClick={() => refetch()} className="btn-secondary">🔄 Refresh</button>
+      <button onClick={() => refetch()} className="btn-secondary">Refresh</button>
       <div className="users-grid">
         {data?.map(user => (
           <div key={user.id} className="user-card">
@@ -159,7 +159,7 @@ function AddUser() {
           <option>Tester</option>
         </select>
         <button type="submit" disabled={mutation.isLoading} className="btn-primary">
-          {mutation.isLoading ? '⏳ Creating...' : '➕ Create User'}
+          {mutation.isLoading ? '⏳ Creating...' : 'Create User'}
         </button>
       </form>
       {mutation.isSuccess && <div className="success">✅ User added!</div>}
@@ -292,7 +292,7 @@ function PaginatedUsers() {
 
   return (
     <div className="section">
-      <h2>📄 Paginated Users</h2>
+      <h2>Paginated Users</h2>
       {isLoading ? (
         <div className="loading">Loading...</div>
       ) : (
