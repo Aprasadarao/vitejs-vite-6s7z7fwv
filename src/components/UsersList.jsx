@@ -97,7 +97,7 @@ function UsersList() {
         {data?.map(user => (
           <div key={user.id} className="user-card">
             <h3>{user.name}</h3>
-            <p>📧 {user.email}</p>
+            <p>&#9993; {user.email}</p>
             <span className="badge">{user.role}</span>
           </div>
         ))}
