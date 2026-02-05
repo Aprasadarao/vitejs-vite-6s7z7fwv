@@ -13,6 +13,7 @@ import BlogDetails from "./components/BlogDetails";
 import Gallery from "./components/Gallery";
 import Dashboard from "./components/Dashboard";
 import UsersList from "./components/UsersList";
+import FileUpload from "./components/FileUpload";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
     <Route path="/userslist" element={<UsersList />} />
     <Route path="/gallery" element={<Gallery />} />
     <Route path="/contact" element={<Contact />} />
+    <Route path="/upload"  element={<FileUpload />} />
 
   </Routes>
   </>

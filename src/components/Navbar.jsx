@@ -21,7 +21,7 @@ export default function Navbar() {
           <li><NavLink to="/" className={linkClass}>Home</NavLink></li>
           <li><NavLink to="/dashboard" className={linkClass}>Dashboard</NavLink></li>
           <li><NavLink to="/userslist" className={linkClass}>Users</NavLink></li>
-          {/* <li><NavLink to="/addcarform" className={linkClass}>Add Car Form</NavLink></li> */}
+          <li><NavLink to="/upload" className={linkClass}>Upload</NavLink></li>
           <li><NavLink to="/carsmanager" className={linkClass}>Cars Manager</NavLink></li>
           <li><NavLink to="/cars" className={linkClass}>All Products</NavLink></li>
           <li><NavLink to="/blog" className={linkClass}>Blog</NavLink></li>
